@@ -827,8 +827,7 @@ body {
 }
 @media (max-width: 768px) {
   .modal {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
   .modal__dialog {
     width: 500px;
@@ -837,18 +836,24 @@ body {
 @media (max-width: 560px) {
   .modal__dialog {
     width: 300px;
+    margin: 0 auto;
   }
   form,
-  .modal__title {
-    flex: 0 1 100%;
-  }
-  .modal__title {
+  .modal__title,
+  .btn_min {
     font-size: 16px;
+    max-width: 200px;
+  }
+  .modal__input {
+    max-width: 150px;
+    font-size: 12px;
+  }
+  .modal__input {
+    width: 200px;
   }
   .modal,
   .modal__content {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
   }
 }
 @media (max-width: 372px) {
