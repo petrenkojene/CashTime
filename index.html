@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CashTime</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/_header.css">
+    <link rel="stylesheet" href="style/_mainMenu.css">
+    <link rel="stylesheet" href="style/_modal.css">
+    <link rel="stylesheet" href="style/_footer.css">
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HEADER----------------------------------------------- -->
+      <header class="header">
+        
+        <div class="logo">
+          <div class="logo_img">
+            <img src="img/logo.svg" alt="Logo" />
+          </div>
+          <div class="logo_description">
+            <p class="logo_description_item1">TrustPad</p>
+            <p class="logo_description_item2">The #1 Multi-Chain Launchpad.</p>
+          </div>
+        </div>
+
+        
+        <div class="menu">
+          <ul class="menu_list">
+            <li>
+              <a
+                class="menu_list_link"
+                href="https://trustpad.io/#pools"
+                target="_blank"
+                >Pools 🔥</a
+              >
+            </li>
+            <li>
+              <a
+                class="menu_list_link"
+                href="https://trustpad.io/levels"
+                target="_blank"
+                >Levels</a
+              >
+            </li>
+            <li>
+              <a
+                class="menu_list_link"
+                href="https://trustpad.io/levels#faq"
+                target="_blank"
+                >FAQ</a
+              >
+            </li>
+            <li>
+              <a
+                class="menu_list_link"
+                href="https://trustpad.io/schedule"
+                target="_blank"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="menu_button">
+            <div class="menu_list_button1">
+              <img src="img/pancakeswap.dda38ed5.svg" alt="" />
+              <a
+                class="menu_list_button_link item1"
+                href="https://pancakeswap.finance/swap#/swap?inputCurrency=0xADCFC6bf853a0a8ad7f9Ff4244140D10cf01363C"
+                target="_blank"
+              >
+                Buy TPAD</a
+              >
+            </div>
+            <button data-button class="menu_list_button2">
+              Connect Wallet
+              <div class="triangle"></div>
+            </button>
+            <div class="menu_button_buttons">
+              <button data-modal class="menu_button_buttons_item1">
+                <img
+                  class="menu_button_img1"
+                  src="img/wallet-metamask.34f5497e.png"
+                  alt=""
+                />
+                Install MetaMask
+              </button>
+              <button data-modal class="menu_button_buttons_item2">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-connect.22c58d8d.svg"
+                  alt=""
+                />
+                WalletConnect
+              </button>
+              <button data-modal class="menu_button_buttons_item3">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-trustwallet.5731f7c2.svg"
+                  alt=""
+                />
+                TrustWallet
+              </button>
+            </div>
+
+            <div class="menu_button_buttons23">
+              <button data-modal class="menu_button_buttons_item1">
+                <img
+                  class="menu_button_img1"
+                  src="img/wallet-metamask.34f5497e.png"
+                  alt=""
+                />
+                Install MetaMask
+              </button>
+              <button data-modal class="menu_button_buttons_item2">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-connect.22c58d8d.svg"
+                  alt=""
+                />
+                WalletConnect
+              </button>
+              <button data-modal class="menu_button_buttons_item3">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-trustwallet.5731f7c2.svg"
+                  alt=""
+                />
+                TrustWallet
+              </button>
+            </div>
+            <div class="menu_button_break"></div>
+            <span class="menu_button_date">Jan 17, 23:36 UTC</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- MAIN MENU-------------------------------------------- -->
+      <div class="mainMenu">
+        <div class="wrapper_mainMenu_block1">
+          <div class="mainMenu_block1">
+            <div class="mainManu_user">
+              <div class="mainManu_user_img">
+                <img
+                  class="mainManu_user_img_img"
+                  src="img/tapfantasy.5b447e06.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="mainManu_user_description">
+                <h2 class="mainManu_user_description_h2">Tap Fantasy</h2>
+                <p class="mainManu_user_description_p">TAP / BUSD</p>
+                <div class="mainManu_user_description_rectangl">
+                  <div class="mainManu_user_description_rectangl_1">
+                    <div class="circle"></div>
+                    <span class="mainManu_user_description_rectangl_1_span"
+                      >Closed</span
+                    >
+                  </div>
+                  <div class="mainManu_user_description_rectangl_2">
+                    <img
+                      class="mainManu_user_description_rectangl_2_img"
+                      src="img/Vector (1).png"
+                      alt=""
+                    />
+                    <span class="mainManu_user_description_rectangl_2_span"
+                      >Levels</span
+                    >
+                  </div>
+                  <div class="mainManu_user_description_rectangl_3">
+                    <span class="mainManu_user_description_rectangl_3_span"
+                      >KYC</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mainMenu_block1_button_item1">
+              <div class="mainMenu_block1_button_wrapper">
+                <button data-button class="mainMenu_block1_button">
+                  Connect Wallet
+                  <div class="triangle"></div>
+                </button>
+              </div>
+              <a
+                href="https://docs.trustpad.io/trustpad/how-to-participate-in-an-ido#5c07"
+                class="mainMenu_block1_button_wrapper_link"
+                target="_blank"
+                >How to participate</a
+              >
+            </div>
+            <div class="menu_button_buttons23">
+              <button data-modal class="menu_button_buttons_item1">
+                <img
+                  class="menu_button_img1"
+                  src="img/wallet-metamask.34f5497e.png"
+                  alt=""
+                />
+                Install MetaMask
+              </button>
+              <button data-modal class="menu_button_buttons_item2">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-connect.22c58d8d.svg"
+                  alt=""
+                />
+                WalletConnect
+              </button>
+              <button data-modal class="menu_button_buttons_item3">
+                <img
+                  class="menu_button_img2"
+                  src="img/wallet-trustwallet.5731f7c2.svg"
+                  alt=""
+                />
+                TrustWallet
+              </button>
+            </div>
+            <div class="mainManuDiagram">
+              <p class="mainManuDiagram_p24">1 BUSD = 25 TAP</p>
+              <p class="mainManuDiagram_p18">1 TAP = 0.04 BUSD</p>
+              <div class="mainManu_item1">
+                <span>finished 10 days, 5 hours ago</span>
+
+                <span class="percent">100%</span>
+              </div>
+              <div class="diagram"></div>
+              <div class="mainManu_item2">
+                <span class="diagram_grey_span">300 000 BUSD</span>
+                <span class="diagram_grey_span">7 500 000 / 7 500 000 TAP</span>
+              </div>
+              <div class="mainMenu_item3">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 640 512"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z"
+                  ></path>
+                </svg>
+                IDO and distribution on BSC
+                <div class="mainMenu_item4">
+                  <span class="mainMenu_item4_span">💰 Sale</span>
+                  <span> Jan 8, 11:00 – 16:00 pm UTC</span>
+                </div>
+                <div class="mainMenu_item4">
+                  <span class="mainMenu_item4_span">🏃‍♂ FCFS</span>
+                  <span> Jan 8, 15:40 UTC</span>
+                </div>
+              </div>
+            </div>
+          </div>
+                </div>
+
+        <div class="mainMenu_block2">
+          <div class="mainMenu_block2_user">
+            <div class="mainMenu_block2_user_photo">
+              <img src="img/tapfantasy.5b447e06.jpeg" alt="" />
+              <h2 class="mainManu_user_description_h2">Tap Fantasy</h2>
+            </div>
+            <img
+              class="mainMenu_logo"
+              src="img/binance_logo.e7c4d2ea.png"
+              alt=""
+            />
+          </div>
+          <div class="mainMenu_text">
+          
+            Tap Fantasy is an MMORPG blockchain game developed in HTML 5.
+            Players dont have to download the game and purchase NFT items, just
+            open it directly on the web page or wallet, and can start the game
+            immediately. After purchasing NFT skins, players can enter the VIP
+            hunting area and obtain $TAP and NFT skins, thereby starting the
+            mode of earning while playing. 200+ NFT skins with different colours
+            are ready before the game launches. Each skin includes exquisite
+            paintings, 3D models, and dubbing by well-known Japanese voice
+            actors.
+        
+        </div>
+          <div class="sostseti">
+            <a href="https://t.me/tap_fantasy" target="_blank"><img src="img/telega.png" alt="" /></a>
+            <a href="https://twitter.com/tapfantasy2021" target="_blank"><img src="img/twiter.png" alt="" /></a>
+            <a href="https://medium.com/@tapfantasy2021" target="_blank"><img src="img/medium.png" alt="" /></a>
+            <a href="https://www.tapfantasy.io/#/" target="_blank"><img src="img/fantasty.png" alt="" /></a>
+            
+            
+            
+          </div>
+          <div class="poolDetails">
+            <h2 class="poll">POOL DETAILS</h2>
+            <div class="poll_item1">
+              <div class="poll_item1_item1">
+                <div class="poll_item_span1">
+              <b> Access Type</b>
+            </div>
+            </span>Levels</span>
+              </div>
+              <div class="poll_item1_item2">
+              <div class="poll_item_span2">Hard Cap:</div>
+                <span>$300 000</span>
+            </div>
+          </div>
+            <div class="poll_item2">
+              <div class="poll_item_span1">
+                <b> Swap Rate:</b>
+              </div>
+              <span class="fiolet">1 TAP &nbsp</span>
+              <span>=</span>
+              <span class="fiolet">&nbsp 25 TAP&nbsp </span>
+              <span class="fiolet"> $0.04 &nbsp</span>
+              |
+              <span class="fiolet">&nbsp 25 TAP &nbsp </span>
+              per
+              <span class="fiolet">&nbsp 25 TAP&nbsp </span>
+              <span class="fiolet"> 1</span>
+            </div>
+            <div class="poll_item3">
+              <div class="poll_item_span1">
+                <b> Start/end:</b>
+              </div>
+              <span>8 Jan, 11:00 am –16:00 pm UTC</span>
+            </div>
+            <div class="poll_item3">
+              <div class="poll_item_span1">
+                <b> FCFS Opens:</b>
+              </div>
+              <span>8 Jan, 15:40 pm UTC (20m before the end)</span>
+            </div>
+            <div class="poll_item4">
+              <div class="poll_item_span1">
+                <b> Base Allocation:</b>
+              </div> 
+              <span class="fiolet">1x&nbsp</span>
+              =
+              <span class="fiolet">&nbsp $37.63 &nbsp</span>
+            </div>
+        </div>
+        <div class="token">
+          <h2 class="poll">TOKEN</h2>
+          <div class="token_item">
+            <div class="token_span"><b>Token:</b></div>            
+          <span class="fiolet">Tap Fantasy (TAP)</span>
+        </div>
+
+        <div class="token_item">
+          <div class="token_span"><b>Type:</b></div>            
+        <span>BEP-20</span>
+      </div>
+
+      <div class="token_item">
+        <div class="token_span"><b>Total Supply:</b></div>            
+      <span>1 000 000 000 TAP</span>
+    </div>
+
+    <div class="token_item">
+      <div class="token_span"><b>Initial Supply:</b></div>            
+    <span class="fiolet">24 400 000 TAP</span>
+    <span>, market cap </span>
+    <span class="fiolet">&nbsp $976 000</span>
+  </div>
+
+  <div class="token_item">
+    <div class="token_span"><b>Token Listing:</b></div>            
+  <span>20th January</span>
+</div>
+        </div>
+
+        <div class="distribution">
+          <h2 class="poll">DISTRIBUTION</h2>
+
+          <div class="distribution_item">
+            <div class="token_span"><b>Distribution:</b></div>            
+          <span>Claimed on TrustPad</span>
+        </div>
+
+        <div class="distribution_item">
+          <div class="token_span"><b>Vesting:</b></div>            
+        <span>20% at TGE, then cliff for 3 months, the rest 10% linear release every month</span>
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL--------------------------------------------------- -->
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form action="#">
+            <div data-close class="modal__close">&times;</div>
+            <div class="modal__title">
+              Мы свяжемся с вами как можно быстрее!
+            </div>
+            <input
+              required
+              placeholder="Ваше имя"
+              name="name"
+              type="text"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="Ваш номер телефона"
+              name="phone"
+              type="phone"
+              class="modal__input"
+            />
+            <button class="btn btn_dark btn_min">Перезвонить мне</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- FOOTER-------------------------------------------------- -->
+    <div class="mainFooter">
+      <div class="mainFooter1">
+        <h2 class="footerPar">Want to launch your project on TrustPad?</h2>
+        <div class="footer_button">
+          <img class="footer_button_img" src="img/shatl.png" alt="">
+          <a class="footer_button_link" href="https://docs.google.com/forms/d/e/1FAIpQLSer-PUjhMDG5fmasXYkmvY3EgpTC-yaI4up5by6Hx5g_9wZaw/viewform"> Apply to Launch</a>
+        </div>
+      </div>
+    
+      <div class="mainFooter2">
+        <div class="logoSotseti">
+          
+            <div class="logo">
+              <div class="logo_img">
+                <img src="img/logo.svg" alt="Logo" />
+              </div>
+              <div class="logo_description">
+                <p class="logo_description_item1">TrustPad</p>
+                <p class="logo_description_item2">Making DeFi a Safer Place.</p>
+              
+            </div>
+          </div>
+          <p class="logo_sot_descr">
+            TrustPad is a decentralized multi-chain fundraising platform enabling projects to raise capital and promise safety to early stage investors. Stake TrustPad tokens to get priority-access to promising projects.
+          </p>
+          <div class="sotseti_link">
+           <a href="https://t.me/TrustPadAnn"><img src="img/rupor.png" alt="" target="_blank"></a>
+           <a href="https://t.me/TrustPad"><img src="img/telega.png" alt="" target="_blank"></a>
+           <a href="https://trustpad.medium.com/"><img src="img/medium.png" alt="" target="_blank"></a>
+           <a href="https://twitter.com/TrustPad"><img src="img/twiter.png" alt="" target="_blank"></a>
+           <a href="https://bscscan.com/address/0xADCFC6bf853a0a8ad7f9Ff4244140D10cf01363C"><img src="img/sharick.png" alt="" target="_blank"></a>
+          </div>
+         
+        </div>
+        <div class="footer_contact">
+          <div class="general">
+            <p class="general_p">General</p>
+            <ul class="footer_general_list">
+              <li><a href="https://trustpad.io/levels" target="_blank">Levels Staking </a></li>
+              <li><a href="https://trustpad.io/staking" target="_blank">Farm</a></li>
+              <li><a href="https://docs.trustpad.io/trustpad/how-to-participate-in-an-ido" target="_blank">How to participate in IDO</a></li>
+              <li><a href="https://trustpad.io/levels#faq" target="_blank">FAQ</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSer-PUjhMDG5fmasXYkmvY3EgpTC-yaI4up5by6Hx5g_9wZaw/viewform" target="_blank">Apply for IDO</a></li>
+              <li><a href="https://coinmarketcap.com/currencies/trustpad/" target="_blank">CoinMarketCap</a></li>
+            </ul>
+          </div>
+          <div class="Communities">
+            <p class="general_p">Communities</p>
+            <ul class="footer_general_list">
+              <li><a href="https://t.me/TrustPad" target="_blank">🇺🇸 English</a></li>
+              <li><a href="https://t.me/TrustNFTPadRu" target="_blank">🇷🇺 Russian</a></li>
+              <li><a href="https://t.me/TrustPad_CN" target="_blank">🇨🇳 Chinese</a></li>
+              <li><a href="https://t.me/TrustPadTurkiye" target="_blank">🇹🇷 Turkish</a></li>
+            </ul>
+          </div>
+          <div class="audits">
+            <p class="general_p">Audits</p>
+            <a  href="" target = '_blank'><img class="audits_item1" src="img/certik.771f31fd.svg" alt=""></a>
+            <a  href="" target = '_blank'><img class="audits_item2" src="img/image.webp" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mainFooter3">
+        <p class="mainFooter3_description">Participants/Citizens from the following countries are strictly excluded/not allowed to participate in the IDOs: Bolivia, Cambodia, Iran, Iraq, Libya, Nepal, Zimbabwe, Liberia, Myanmar, North Korea.</p>
+        <p class="mainFooter3_description_margin">© Copyright TrustPad 2022. All rights reserved.</p>
+        <div class="mainFooter3_links">
+          <a href="https://trustpad.io/privacy" target="_blank">Privacy Policy</a>
+          <a href="https://trustpad.io/tos" target="_blank">Terms of use</a>
+          
+        </div>
+        <button class="footer_btn">
+          <img src="img/arrow.png" alt="">
+        </button>
+      </div>
+      
+    </div>
+    <script src="script/script.js">
+      
+    </script>
+  </body>
+</html>

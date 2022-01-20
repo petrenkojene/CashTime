@@ -1,0 +1,184 @@
+.mainFooter {
+  background-color: #12112e;
+  background-size: 100%;
+  box-sizing: content-box;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.mainFooter1 {
+  padding: 48px 0px 48px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 2px solid #1e1d36;
+  flex: 0 1 100%;
+}
+.footerPar {
+  font-size: 36px;
+  color: ivory;
+  margin: 0px 0px 29px 0px;
+}
+.footer_button {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #25e6cf, #5794b8);
+}
+.footer_button_link {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.footer_button_img {
+  width: 24px;
+  height: 24px;
+}
+.mainFooter2 {
+  max-width: 1113px;
+  margin: 0px 30px 0pc 30px;
+  padding: 40px 20px 56px 20px;
+  display: flex;
+  flex: 0 1 100%;
+}
+.logoSotseti {
+  flex: 0 1 26.95%;
+  height: 244px;
+}
+.logo_sot_descr {
+  color: #6d8699;
+  margin-bottom: 32px;
+}
+.sotseti_link {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_contact {
+  display: flex;
+  justify-content: space-around;
+  flex: 0 1 67.56%;
+}
+.general {
+  width: 161px;
+}
+.Communities {
+  width: 111px;
+}
+.audits {
+  width: 211px;
+}
+.general_p {
+  font-size: 18px;
+  color: #9fa399;
+  margin: 0px 0px 16px 0px;
+}
+.footer_general_list {
+  list-style: none;
+  padding: 0px;
+}
+.footer_general_list li {
+  margin: 0px 0px 16px 0px;
+}
+.footer_general_list a {
+  text-decoration: none;
+  color: white;
+}
+.footer_general_list a:hover,
+.footer_general_list a:focus {
+  text-decoration: none;
+  color: #ba84ff;
+}
+.audits_item1 {
+  width: 168px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.audits_item2 {
+  width: 211px;
+  height: 45px;
+}
+.mainFooter3 {
+  max-width: 1113px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin: 24px 0px 0px 0px;
+  flex: 0 1 100%;
+}
+.mainFooter3_description,
+.mainFooter3_description_margin {
+  font-size: 12px;
+  color: #a3a3a3;
+}
+.mainFooter3_description {
+  margin: 24px 0px 0px 12px;
+  flex: 0 1 67.38%;
+}
+.mainFooter3_description_margin {
+  flex: 0 1 16.17%;
+  margin: 0px 0px 0px 12px;
+}
+.mainFooter3_links {
+  flex: 0 1 13.83%;
+  margin-left: 24px;
+}
+.mainFooter3_links a {
+  color: #a3a3a3;
+  font-size: 16px;
+}
+.mainFooter3_links a:hover {
+  color: #960960;
+  text-decoration: none;
+}
+.footer_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 25%);
+  border: none;
+}
+.footer_btn:hover {
+  background-color: hsl(0, 1%, 61%);
+}
+@media (max-width: 1200px) {
+  .mainFooter {
+    width: auto;
+    min-height: 1px;
+    position: relative;
+  }
+  .mainFooter1,
+  .mainFooter2,
+  .mainFooter3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .mainFooter {
+    align-items: center;
+  }
+  .mainFooter1,
+  .mainFooter2,
+  .mainFooter3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 545px) {
+  .mainFooter1 {
+    text-align: center;
+  }
+
+  .footer_contact,
+  .mainFooter3 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
