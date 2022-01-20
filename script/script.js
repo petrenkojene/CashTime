@@ -109,10 +109,12 @@ window.addEventListener("DOMContentLoaded", () => {
   function closeModalWindow() {
     modalWindow.classList.add("hide");
     modalWindow.classList.remove("show");
+    document.documentElement.style.overflow = "";
   }
   function showModal() {
     modalWindow.classList.add("show");
     modalWindow.classList.remove("hide");
+    document.documentElement.style.overflow = "hidden";
   }
   closeModal.addEventListener("click", () => {
     closeModalWindow();
