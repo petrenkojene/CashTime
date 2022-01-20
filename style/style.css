@@ -218,6 +218,9 @@ body {
   .menu_button_date {
     top: 118px;
   }
+  .menu_button_buttons {
+    top: 120px;
+  }
 }
 @media (max-width: 768px) {
   .header {
@@ -228,7 +231,7 @@ body {
     top: 118px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 643px) {
   .header {
     max-width: none;
     justify-content: center;
