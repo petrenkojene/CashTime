@@ -164,8 +164,24 @@ body {
   flex-wrap: wrap;
 }
 .menu_button_buttons23 {
-  left: 50px;
-  top: 450px;
+  left: 250px;
+  top: 415px;
+}
+@media (max-width: 1344px) {
+  .menu_button_buttons23 {
+    left: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .menu_button_buttons23 {
+    top: 445px;
+  }
+}
+@media (max-width: 430px) {
+  .menu_button_buttons23 {
+    left: 100px;
+    top: 445px;
+  }
 }
 .menu_button_buttons_item1,
 .menu_button_buttons_item2,
@@ -238,6 +254,9 @@ body {
   }
   .menu_button_date {
     top: 175px;
+  }
+  .menu_button_buttons {
+    top: 170px;
   }
 }
 

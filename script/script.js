@@ -145,10 +145,17 @@ window.addEventListener("DOMContentLoaded", () => {
         menuLeft.style.position = "fixed";
         menuLeft.style.top = 0 + "px";
         menuLeft.style.marginTop = 10 + "px";
+        menuLeft.style.width = 296.825 + "px";
+        document.querySelector(".menu_button_buttons23").style.position =
+          "fixed";
+        document.querySelector(".menu_button_buttons23").style.top = 215 + "px";
       }
       if (menuRight.getBoundingClientRect().top >= 0) {
         menuLeft.style.position = "relative";
         menuLeft.style.marginTop = 0 + "px";
+        document.querySelector(".menu_button_buttons23").style.position =
+          "absolute";
+        document.querySelector(".menu_button_buttons23").style.top = 415 + "px";
       }
       if (
         menuRight.getBoundingClientRect().bottom <=
@@ -160,11 +167,17 @@ window.addEventListener("DOMContentLoaded", () => {
           menuLeft.getBoundingClientRect().height +
           "px";
         menuLeft.style.marginTop = 0 + "px";
+        document.querySelector(".menu_button_buttons23").style.position =
+          "absolute";
+        document.querySelector(".menu_button_buttons23").style.top = 865 + "px";
       }
     }
     if (document.documentElement.clientWidth <= 992) {
       menuLeft.style.position = "relative";
       menuLeft.style.marginTop = 0 + "px";
+      document.querySelector(".menu_button_buttons23").style.position =
+        "absolute";
+      // document.querySelector(".menu_button_buttons23").style.top = 215 + "px";
     }
   });
 
